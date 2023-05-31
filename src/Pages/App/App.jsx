@@ -1,4 +1,6 @@
 import Home from "../Home";
+import { BWMcontextProvider } from "../../Context";
+
 import { useRoutes, BrowserRouter } from "react-router-dom";
 import NotFound from "../NotFound";
 import Navbar from "../../Components/Navbar/index.jsx";
@@ -15,11 +17,15 @@ const AppRoutes = () => {
 
 const App = () => {
   return (
+
+    <BWMcontextProvider>
       <BrowserRouter>
         <AppRoutes />
         <Navbar />
       </BrowserRouter>
+    </BWMcontextProvider>
   );
 };
 
 export default App;
+

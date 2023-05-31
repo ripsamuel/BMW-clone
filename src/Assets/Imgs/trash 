@@ -1,0 +1,202 @@
+{/* item 1*/}
+        <div className="mt-2 bg-white ">
+          <div
+            onClick={() => onClickModal("1")}
+            className={`${
+              openModal1 ? " flex h-52" : " px-4 py-10 cursor-pointer"
+            } `}
+          >
+            <figure className=" sm:w-44 lg:w-full h-52">
+              <img
+                className={`${
+                  openModal1 ? " lg:w-full h-full" : " lg:w-full h-full"
+                } w-full`}
+                src="https://www.todocircuito.com/ckfinder/userfiles/images/bmw-s1000rr-s1000r.jpg"
+              />
+            </figure>
+            <div className="grid sm:w-96">
+              <div
+                className={`${
+                  openModal1sds
+                    ? "px-4 py-4 cursor-pointer lg:w-96"
+                    : " px-4 py-4"
+                } w-96`}
+              >
+                <h2 className=" font-bold text-lg ">
+                  Garantia de 2 años en todos los cascos*{" "}
+                </h2>
+
+                <p
+                  className={`${
+                    openModal1
+                      ? " py-1  font-ligth text-sm"
+                      : "py-1  font-ligth text-sm"
+                  } `}
+                >
+                  Ahora ampliada para más placer en cada viaje.{" "}
+                </p>
+                <p
+                  className={`${
+                    openModal1 ? "hidden " : "py-6 text-sm font-ligth"
+                  }  `}
+                >
+                  *Solo disponible en las distribuidoras participantes de BMW
+                  Motorrad. Cascos comprados a partir del primero de enero de
+                  2020
+                </p>
+                <button
+                  className={`${
+                    openModal1
+                      ? "hidden"
+                      : "bg-black py-3 h-12 items-center  text-white mt-6 w-full font-extrabold text-medium hover:bg-blue-700"
+                  }`}
+                >
+                  MÀS INFORMACIÓN{" "}
+                </button>
+              </div>
+              <div className=" justify-start items-center ml-6 mt-6 ">
+                <button className=" w-48 border bg-gray-400 h-2 "> </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        {/* item 2 */}
+        <div className="mt-2  bg-white ">
+          <div
+            onClick={() => onClickModal("2")}
+            className={`${
+              openModal2 ? " flex h-52 " : " px-4 py-10 cursor-pointer"
+            } `}
+          >
+            <figure className=" sm:w-44 lg:w-full w-44 h-52 ">
+              <img
+                className={`${
+                  openModal2 ? " lg:w-full h-full" : " lg:w-full h-full"
+                } w-full`}
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRspxFXcTrlLqphWtf47_XXYryF0L3faW83yAb2IU0LsDtaklBVAOWJdZzPCZ6WrHiEqAE&usqp=CAU"
+              />
+            </figure>
+            <div className="grid w-96">
+              <div
+                className={`${
+                  openModal2
+                    ? "px-4 py-4 cursor-pointer"
+                    : " px-4 py-4"
+                }  w-96`}
+              >
+                <h2 className=" font-bold text-lg ">3 Años de garantia </h2>
+
+                <p
+                  className={`${
+                    openModal2
+                      ? " py-1  font-ligth text-sm"
+                      : "py-1  font-ligth text-sm "
+                  }`}
+                >
+                  Ride On &On &On.....Tres de años de garantía para ti y tu
+                  nueva moto en todos los modelos 2019 en adelante.*{" "}
+                </p>
+                <p
+                  className={`${
+                    openModal2 ? "hidden " : "py-6 text-sm font-ligth"
+                  } `}
+                >
+                  BMW MOTORRAD representa la pasión, el dinamismo, el diseño, la
+                  tecnología, la innovación y, sobre todo, la calidad. Basándose
+                  en esta convicción, BMW MOTORRAD es el primer fabricante
+                  Premium que amplía la garantía legal de sus motos de 24 meses
+                  a 36 meses. Disfruta de la tranquilidad que obtendrás al saber
+                  que dispones de reparaciones gratuitas. Aprovéchate de estos
+                  tres años llenos de beneficios. ¿Qué estás esperando?
+                  *Excluida HP4 Race
+                </p>
+                <button
+                  className={`${
+                    openModal2
+                      ? "hidden"
+                      : "bg-black py-3 h-12 items-center  text-white mt-6 w-full font-extrabold text-medium hover:bg-blue-700"
+                  }`}
+                >
+                  MÀS INFORMACIÓN{" "}
+                </button>
+              </div>
+              <div className=" justify-start items-center ml-6 mt-6 ">
+                <button className=" w-48 border bg-gray-400 h-2 "> </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>{" "}
+        {/* item 3 */}
+        <div className="mt-2  bg-white ">
+            <div
+              onClick={() => onClickModal("1")}
+              className={`${
+                openModal1 ? " flex h-52 " : " px-4 py-10 cursor-pointer"
+              } `}
+            >
+              <figure className=" sm:w-44 lg:w-full h-52">
+                <img
+                  className={`${
+                    openModal1 ? " lg:w-full h-full" : " lg:w-full h-full"
+                  } w-full`}
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6o2XwwGxrQtg-lMMRI-sw2-DN03oS_r3wlw&usqp=CAU"
+                />
+              </figure>
+              <div className="grid">
+                <div
+                  className={`${
+                    openModal1
+                      ? "px-4 py-4 cursor-pointer lg:w-96"
+                      : " px-4 py-4"
+                  } `}
+                >
+                  <h2 className=" font-bold text-lg ">
+                    LEGO® Technic™ M 1000 RR{" "}
+                  </h2>
+
+                  <p
+                    className={`${
+                      openModal1
+                        ? " py-1  font-ligth text-sm"
+                        : "py-1  font-ligth text-sm"
+                    } `}
+                  >
+                    Building like no other..{" "}
+                  </p>
+                  <p
+                    className={`${
+                      openModal1 ? "hidden " : "py-6 text-sm font-ligth"
+                    } `}
+                  >
+                    You are driven by the fascinating original. It’s a passion
+                    that dominates you. For you, every detail, every millimetre,
+                    every technical feature counts. You love this feeling and
+                    bring it to life on the street, on the racetrack and now
+                    finally also at home: the first M LEGO® model ever and the
+                    largest LEGO® Technic motorcycle model to date has been
+                    created in close cooperation with LEGO® Technic designers:
+                    The LEGO® Technic M RR at a scale of 1:5. The specifications
+                    were clear – maximum precision to make what had previously
+                    been impossible possible. Parts were designed from scratch
+                    if they did not meet the strict requirements, something that
+                    was also done with the original. That’s exactly what “Born
+                    on the Racetrack. Build at home.” represents.
+                  </p>
+                  <button
+                    className={`${
+                      openModal1
+                        ? "hidden"
+                        : "bg-black py-3 h-12 items-center  text-white mt-6 w-full font-extrabold text-medium hover:bg-blue-700"
+                    }`}
+                  >
+                    MÀS INFORMACIÓN{" "}
+                  </button>
+                </div>
+                <div className=" justify-start items-center ml-6 mt-6 ">
+                  <button className=" w-48 border bg-gray-400 h-2 "> </button>
+                </div>
+              </div>
+            </div>
+          </div>

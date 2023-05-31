@@ -1,8 +1,29 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+ useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = prevScrollPos > currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(visible);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos]);
+
+
   return (
-    <nav className="h-40 bg-white flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light top-0">
+    <nav className={`h-40 bg-white flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light top-0
+     left-0 transition-transform duration-700 ease-in-out transform translate-y-0 scroll-hide
+     ${visible ? 'translate-y-0' : '-translate-y-full'}`}
+    >
       <ul className="flex items-center gap-3">
         <li className="flex">
           <NavLink to="/"></NavLink>
@@ -32,6 +53,7 @@ const Navbar = () => {
         
       </ul>
     </nav>
+    
   );
 };
 
