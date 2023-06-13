@@ -58,7 +58,7 @@ export const Carousel = () => {
   return (
     <div className="carousel-item">
     {/* carousel slides */}
-      <section className="carousel m-auto px-4 relative group">
+      <section className="carousel w-full  relative group">
         <div
           style={{ backgroundImage: `url(${infoSlides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500"

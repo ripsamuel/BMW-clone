@@ -72,7 +72,7 @@ export const Card = ({ title, imgUrl, subTitle, buttonText, content }) => {
             </button>
           </div>
           <div className="absolute bottom-0 justify-start items-center ml-6 mt-6">
-            <button className="w-48 border bg-gray-400 h-2"></button>
+            <button className="w-20 border bg-gray-400 h-2"></button>
           </div>
         </div>
       </div>

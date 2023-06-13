@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className={`h-40 bg-white flex justify-between items-center fixed z-10 w-full py-5 px-8 text-sm font-light top-0
+    <nav className={`h-40 w-full bg-white flex justify-between items-center fixed z-10  py-5 px-2 text-sm font-light top-0
      left-0 transition-transform duration-700 ease-in-out transform translate-y-0 scroll-hide
      ${visible ? 'translate-y-0' : '-translate-y-full'}`}
     >
@@ -48,7 +48,7 @@ const Navbar = () => {
 
       <ul className="flex ">
         <img
-          className="w-full h-40 mr-1"
+          className=" h-40 mr-1"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9dqdnVXkrnk-DizHUu-a-SuiF3XWqhULbA&usqp=CAU" />
         
       </ul>
