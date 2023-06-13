@@ -18,7 +18,7 @@ export const BWMcontextProvider = ({children}) => {
         },
         {
             id : 2,
-            imgUrl :'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRspxFXcTrlLqphWtf47_XXYryF0L3faW83yAb2IU0LsDtaklBVAOWJdZzPCZ6WrHiEqAE&usqp=CAU',
+            imgUrl :'https://i.pinimg.com/564x/7d/ec/9f/7dec9fdb5762df557dbc18723edbdc55.jpg',
             title :'3 Años de garantia',
             subTitle :'Para tu nueva moto en todos los modelos 2019 en adelante.*',
             buttonText :'Ver detalles',
@@ -26,7 +26,7 @@ export const BWMcontextProvider = ({children}) => {
         },
         {
             id : 3,
-            imgUrl :'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6o2XwwGxrQtg-lMMRI-sw2-DN03oS_r3wlw&usqp=CAU',
+            imgUrl :'https://i.pinimg.com/564x/53/d8/d6/53d8d6cca6d1acc19e459c6a018c1524.jpg',
             title :'LEGO® Technic™ M 1000 RR',
             subTitle :'Building like no other..',
             buttonText :'MÀS INFORMACIÓN',

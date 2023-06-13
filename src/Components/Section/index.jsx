@@ -49,7 +49,7 @@ const Section = () => {
             <p
               className={`${
                 openModal1 ? "hidden " : ""
-              }  py-10 text-medium font-medium `}
+              }  py-10 text-lg font-medium `}
             >
               Explora todas las versiones, equipamiento y colores disponibles
               para tu próxima aventura.
@@ -86,7 +86,7 @@ const Section = () => {
             <p
               className={`${
                 openModal2 ? " " : ""
-              }  py-10 text-medium font-medium `}
+              }  py-10 text-lg font-medium `}
             >
               Contactanos ahora.
             </p>
@@ -99,7 +99,7 @@ const Section = () => {
               className={`${
                 openModal2
                   ? "hidden"
-                  : "bg-black py-3 h-12 text-white mt-6 w-full font-extrabold text-medium hover:bg-blue-700"
+                  : "bg-black py-3 h-12 text-white mt-6 w-full font-extrabold text-lg hover:bg-blue-700"
               }`}
             >
               CONTACTANOS{" "}

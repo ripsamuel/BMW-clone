@@ -30,7 +30,7 @@ export const Card = ({ title, imgUrl, subTitle, buttonText, content }) => {
       }`}
     >
       {/* item */}
-      <div className={`${expanded ? "flex" : "grid"} flex`}>
+      <div className={`${expanded ? "flex" : "grid"} flex text-lg`}>
         <figure className="lg:w-full">
           <img
             className={`${
@@ -47,17 +47,17 @@ export const Card = ({ title, imgUrl, subTitle, buttonText, content }) => {
               expanded ? "px-4 py-4 cursor-pointer" : "px-4 py-4 w-full"
             }`}
           >
-            <h2 className="font-bold text-lg">{title}</h2>
+            <h2 className="font-bold text-2xl">{title}</h2>
 
             <p
               className={`${
-                expanded ? "py-1 font-ligth text-sm" : "py-1 font-ligth text-sm w-full"
+                expanded ? "py-1 font-ligth text-lg" : "py-1 font-ligth text-lg w-full"
               }`}
             >
               {subTitle}
             </p>
             <p
-              className={`${expanded ? "hidden" : "py-6 text-sm font-ligth"}`}
+              className={`${expanded ? "hidden" : "py-6 text-lg font-ligth"}`}
             >
               {content}
             </p>
@@ -65,7 +65,7 @@ export const Card = ({ title, imgUrl, subTitle, buttonText, content }) => {
               className={`${
                 expanded
                   ? "hidden"
-                  : "bg-black py-3 h-12 items-center text-white mt-6 w-full font-extrabold text-medium hover:bg-blue-700"
+                  : "bg-black py-3 h-12 items-center text-white mt-6 w-full font-extrabold text-lg hover:bg-blue-700"
               }`}
             >
               {buttonText}

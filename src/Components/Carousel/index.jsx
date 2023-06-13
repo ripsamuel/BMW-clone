@@ -84,8 +84,8 @@ export const Carousel = () => {
           </div>
         </div>
       </section>
-    {/* carousel services  */}
-      <section className="container bg-black opacity-90 text-white ">
+    {/* carousel services - container */}
+      <section className=" bg-black opacity-90 text-white ">
         <div className="grid rows-8 items-center grid-col gap-10 p-12">
           <div>
             <div className="grid flex-row gap-6 ">
